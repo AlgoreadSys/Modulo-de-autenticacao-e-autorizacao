@@ -34,17 +34,24 @@ if (app.Environment.IsDevelopment())
 
 app.MapPost("/createaccount", async (UserAccount userAccount) =>
     {
+        var responseMessage = new ResponseMessage();
+        
         try
-        { await supabase.Auth.SignUp(userAccount.email, userAccount.password);
+        { 
+            await supabase.Auth.SignUp(userAccount.email, userAccount.password);
+            responseMessage.message = "Account created success";
+            Results.Ok(responseMessage);
         }
         catch (Exception e)
         {
-            return ExtractErrorMessage(e.Message);
+            responseMessage.message = ExtractErrorMessage(e.Message);
+            Results.BadRequest(responseMessage);
         }
-
-        return "Account created successfully!";
-    })//colocar tags necessárias
+    })
+    .Produces<UserAccount>(StatusCodes.Status201Created)
+    .Produces(StatusCodes.Status400BadRequest)
     .WithName("PostCreateAccount")
+    .WithTags("Account")
     .WithOpenApi();
 
 /*
