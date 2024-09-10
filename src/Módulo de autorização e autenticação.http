@@ -1,0 +1,6 @@
+@Módulo_de_autorização_e_autenticação_HostAddress = http://localhost:5152
+
+POST {{Módulo_de_autorização_e_autenticação_HostAddress}}/createaccount/
+Accept: application/json
+
+###
