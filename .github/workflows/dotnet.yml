@@ -27,7 +27,11 @@ jobs:
           dotnet restore "Modulo_de_autorizacao_e_autenticacao.csproj"
 
       - name: Build
-        run: dotnet build "/src/Modulo_de_autorizacao_e_autenticacao.csproj" --no-restore --configuration realease
+        run: |
+          cd "src"
+          dotnet build "Modulo_de_autorizacao_e_autenticacao.csproj" --no-restore --configuration realease
 
       - name: Run tests
-        run: dotnet test "/src/Modulo_de_autorizacao_e_autenticacao.csproj" --no-build --verbosity normal
+        run: |
+          cd "src"
+          dotnet tests "Modulo_de_autorizacao_e_autenticacao.csproj" --no-build --verbosity normal
