@@ -77,6 +77,7 @@ app.MapPost("/loginaccount", async ([FromBody] UserAccount userAccount) =>
 
 app.MapPost("/logout", async () =>
     {
+        
         var responseMessage = new ResponseMessage();
         
         try
@@ -129,6 +130,7 @@ app.MapPut("/changepassword", async ([FromBody] string newPassword) =>
         {
             var changePassword = new UserAttributes{ Password = newPassword };
             await supabase.Auth.Update(changePassword);
+            NewAudit("Password Changed!");
             responseMessage.message = "Password changed successfully";
             return Results.Ok(responseMessage);
         }
