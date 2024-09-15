@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lDWGuUYqRVA=",
+  "dgSpecHash": "qW/CGCs+7Ss=",
   "success": true,
-  "projectFilePath": "D:\\Github\\AlogreadRepo\\Modulo-de-autenticacao-e-autorizacao\\src\\Módulo de autorização e autenticação.csproj",
+  "projectFilePath": "D:\\Github\\AlogreadRepo\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lukexll\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.7\\microsoft.aspnetcore.openapi.8.0.7.nupkg.sha512",
     "C:\\Users\\Lukexll\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

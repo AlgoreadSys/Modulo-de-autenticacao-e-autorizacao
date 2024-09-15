@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Módulo de autorização e autenticação")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Modulo_de_autorizacao_e_autenticacao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4c5d4691f0707aa1be8debf4846265d0b54470f")]
-[assembly: System.Reflection.AssemblyProductAttribute("Módulo de autorização e autenticação")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Módulo de autorização e autenticação")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95000ab94c172f11f387f1e88e2bb295fb882255")]
+[assembly: System.Reflection.AssemblyProductAttribute("Modulo_de_autorizacao_e_autenticacao")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Modulo_de_autorizacao_e_autenticacao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
