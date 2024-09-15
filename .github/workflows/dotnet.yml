@@ -1,0 +1,31 @@
+name: ASP.NET Core Tests
+
+on:
+  push:
+    branches:
+      - test
+  pull_request:
+    branches:
+      - test
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0'
+
+      - name: Install dependencies
+        run: dotnet restore "/src/Modulo_de_autorizacao_e_autenticacao.csproj"
+
+      - name: Build
+        run: dotnet build "/src/Modulo_de_autorizacao_e_autenticacao.csproj" --no-restore --configuration realease
+
+      - name: Run tests
+        run: dotnet test "/src/Modulo_de_autorizacao_e_autenticacao.csproj" --no-build --verbosity normal
