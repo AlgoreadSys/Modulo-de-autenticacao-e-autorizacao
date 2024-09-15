@@ -1,6 +1,6 @@
 using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
-using Módulo_de_autorização_e_autenticação.Models;
+using Modulo_de_autorizacao_e_autenticacao.Models;
 using Supabase;
 using Supabase.Gotrue;
 using Client = Supabase.Client;
