@@ -2,6 +2,7 @@ using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using Módulo_de_autorização_e_autenticação.Models;
 using Supabase;
+using Supabase.Gotrue;
 using Client = Supabase.Client;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -49,14 +50,15 @@ app.MapPost("/createaccount", async (UserAccount userAccount) =>
     .WithTags("Account")
     .WithOpenApi();
 
-app.MapPost("/loginaccount", async ([FromBody]UserAccount userAccount) =>
+
+app.MapPost("/loginaccount", async ([FromBody] UserAccount userAccount) =>
     {
         var responseMessage = new ResponseMessage();
         
         try
         { 
             await supabase.Auth.SignIn(userAccount.email, userAccount.password);
-            NewAudit("Logado!");
+            NewAudit("logged in!");
             responseMessage.message = "Login successfully";
             return Results.Ok(responseMessage);
         }
@@ -69,6 +71,76 @@ app.MapPost("/loginaccount", async ([FromBody]UserAccount userAccount) =>
     .Produces(StatusCodes.Status200OK)
     .Produces(StatusCodes.Status400BadRequest)
     .WithName("PostLoginAccount")
+    .WithTags("Account")
+    .WithOpenApi();
+
+
+app.MapPost("/logout", async () =>
+    {
+        var responseMessage = new ResponseMessage();
+        
+        try
+        { 
+            await supabase.Auth.SignOut();
+            responseMessage.message = "Logout successfully";
+            return Results.Ok(responseMessage);
+        }
+        catch (Exception e)
+        {
+            responseMessage.message = ExtractErrorMessage(e.Message);
+            return Results.BadRequest(responseMessage);
+        }
+    })
+    .Produces(StatusCodes.Status200OK)
+    .Produces(StatusCodes.Status400BadRequest)
+    .WithName("PostLogout")
+    .WithTags("Account")
+    .WithOpenApi();
+
+
+app.MapPost("/passwordrecovery", async ([FromBody] string email) =>
+    {
+        var responseMessage = new ResponseMessage();
+        
+        try
+        { 
+            await supabase.Auth.ResetPasswordForEmail(email);
+            responseMessage.message = "Confirm in your email!";
+            return Results.Ok(responseMessage);
+        }
+        catch (Exception e)
+        {
+            responseMessage.message = ExtractErrorMessage(e.Message);
+            return Results.BadRequest(responseMessage);
+        }
+    })
+    .Produces(StatusCodes.Status200OK)
+    .Produces(StatusCodes.Status400BadRequest)
+    .WithName("PostPasswordRecovery")
+    .WithTags("Account")
+    .WithOpenApi();
+
+
+app.MapPut("/changepassword", async ([FromBody] string newPassword) =>
+    {
+        var responseMessage = new ResponseMessage();
+        
+        try
+        {
+            var changePassword = new UserAttributes{ Password = newPassword };
+            await supabase.Auth.Update(changePassword);
+            responseMessage.message = "Password changed successfully";
+            return Results.Ok(responseMessage);
+        }
+        catch (Exception e)
+        {
+            responseMessage.message = ExtractErrorMessage(e.Message);
+            return Results.BadRequest(responseMessage);
+        }
+    })
+    .Produces(StatusCodes.Status200OK)
+    .Produces(StatusCodes.Status400BadRequest)
+    .WithName("PutChangePassword")
     .WithTags("Account")
     .WithOpenApi();
 
@@ -96,8 +168,8 @@ async void NewAudit(string auditLog)
 {
     try
     { 
-        await supabase.From<authAudit>()
-            .Insert(new authAudit
+        await supabase.From<AuthAudit>()
+            .Insert(new AuthAudit
             {
                 created_at = DateTimeOffset.Now,
                 auth_id = Guid.Parse(supabase.Auth.CurrentUser!.Id!),

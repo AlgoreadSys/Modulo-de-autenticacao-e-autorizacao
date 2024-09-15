@@ -4,7 +4,7 @@ using Supabase.Postgrest.Models;
 namespace Módulo_de_autorização_e_autenticação.Models;
 
 [Table("authAudit")]
-public class authAudit : BaseModel
+public class AuthAudit : BaseModel
 {
     [PrimaryKey()]
     public int id { get; set; }

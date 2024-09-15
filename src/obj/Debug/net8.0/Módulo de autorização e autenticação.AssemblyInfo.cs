@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Módulo de autorização e autenticação")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8423d0d690dee55d65a4022831f2c9671fac4e34")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4c5d4691f0707aa1be8debf4846265d0b54470f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Módulo de autorização e autenticação")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Módulo de autorização e autenticação")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
