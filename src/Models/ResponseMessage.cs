@@ -1,4 +1,4 @@
-namespace Módulo_de_autorização_e_autenticação.Models;
+namespace Modulo_de_autorizacao_e_autenticacao.Models;
 
 public record ResponseMessage()
 {
