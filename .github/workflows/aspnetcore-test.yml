@@ -25,7 +25,7 @@ jobs:
         run: dotnet restore
         
       - name: Build the project
-        run: msbuild ./src/
+        run: msbuild ./src/Módulo_de_autenticação.csproj
 
       - name: Build
         run: dotnet build --no-restore
