@@ -1,7 +1,7 @@
 using Supabase.Postgrest.Attributes;
 using Supabase.Postgrest.Models;
 
-namespace Módulo_de_autorização_e_autenticação.Models;
+namespace Modulo_de_autorizacao_e_autenticacao.Models;
 
 [Table("authAudit")]
 public class AuthAudit : BaseModel

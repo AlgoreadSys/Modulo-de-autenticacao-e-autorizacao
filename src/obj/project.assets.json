@@ -1266,9 +1266,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\AlogreadRepo\\Modulo-de-autenticacao-e-autorizacao\\src\\Módulo de autorização e autenticação.csproj",
-      "projectName": "Módulo de autorização e autenticação",
-      "projectPath": "D:\\Github\\AlogreadRepo\\Modulo-de-autenticacao-e-autorizacao\\src\\Módulo de autorização e autenticação.csproj",
+      "projectUniqueName": "D:\\Github\\AlogreadRepo\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj",
+      "projectName": "Modulo_de_autorizacao_e_autenticacao",
+      "projectPath": "D:\\Github\\AlogreadRepo\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj",
       "packagesPath": "C:\\Users\\Lukexll\\.nuget\\packages\\",
       "outputPath": "D:\\Github\\AlogreadRepo\\Modulo-de-autenticacao-e-autorizacao\\src\\obj\\",
       "projectStyle": "PackageReference",
