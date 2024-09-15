@@ -23,6 +23,9 @@ jobs:
 
       - name: Install dependencies
         run: dotnet restore
+        
+      - name: Build the project
+        run: msbuild ./src/
 
       - name: Build
         run: dotnet build --no-restore
