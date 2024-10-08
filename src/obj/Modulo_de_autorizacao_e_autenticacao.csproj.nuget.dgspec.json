@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\AlogreadRepo\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj": {}
+    "C:\\Users\\Lukexll\\Documents\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj": {}
   },
   "projects": {
-    "D:\\Github\\AlogreadRepo\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj": {
+    "C:\\Users\\Lukexll\\Documents\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\AlogreadRepo\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj",
+        "projectUniqueName": "C:\\Users\\Lukexll\\Documents\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj",
         "projectName": "Modulo_de_autorizacao_e_autenticacao",
-        "projectPath": "D:\\Github\\AlogreadRepo\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj",
+        "projectPath": "C:\\Users\\Lukexll\\Documents\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj",
         "packagesPath": "C:\\Users\\Lukexll\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\AlogreadRepo\\Modulo-de-autenticacao-e-autorizacao\\src\\obj\\",
+        "outputPath": "C:\\Users\\Lukexll\\Documents\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lukexll\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Lukexll\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,11 +48,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.8.1, )"
             },
             "supabase": {
               "target": "Package",
@@ -75,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
