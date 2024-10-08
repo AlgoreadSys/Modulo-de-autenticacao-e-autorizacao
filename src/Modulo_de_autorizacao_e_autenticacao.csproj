@@ -7,9 +7,65 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.7" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8" />
         <PackageReference Include="supabase" Version="1.1.1" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.8.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Modulo_de_autrizacao_e_autenticacao.Tests\obj\**" />
+      <Compile Remove="Modulo_de_autrizacao_e_autenticacao.Tests\**" />
+      <Compile Remove="Tests\**" />
+      <Compile Remove="MinimalApi.Tests\**" />
+      <Compile Remove="UnitTests\**" />
+      <Compile Remove="Modulo_de_autorizacao_e_autenticacao.Tests\**" />
+      <Compile Remove="Models\ChangePassword.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Modulo_de_autrizacao_e_autenticacao.Tests\obj\**" />
+      <EmbeddedResource Remove="Modulo_de_autrizacao_e_autenticacao.Tests\**" />
+      <EmbeddedResource Remove="Tests\**" />
+      <EmbeddedResource Remove="MinimalApi.Tests\**" />
+      <EmbeddedResource Remove="UnitTests\**" />
+      <EmbeddedResource Remove="Modulo_de_autorizacao_e_autenticacao.Tests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Modulo_de_autrizacao_e_autenticacao.Tests\obj\**" />
+      <Content Remove="Modulo_de_autrizacao_e_autenticacao.Tests\**" />
+      <Content Remove="Tests\**" />
+      <Content Include="MinimalApi.Tests\MinimalApi.Tests.csproj" />
+      <Content Include="MinimalApi.Tests\obj\MinimalApi.Tests.csproj.nuget.g.props" />
+      <Content Include="MinimalApi.Tests\obj\MinimalApi.Tests.csproj.nuget.g.targets" />
+      <Content Include="MinimalApi.Tests\obj\project.nuget.cache" />
+      <Content Remove="MinimalApi.Tests\**" />
+      <Content Include="Modulo_de_autorizacao_e_autenticacao.Tests\Modulo_de_autorizacao_e_autenticacao.Tests.csproj" />
+      <Content Include="UnitTests\UnitTests.csproj" />
+      <Content Remove="UnitTests\**" />
+      <Content Remove="Modulo_de_autorizacao_e_autenticacao.Tests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Modulo_de_autrizacao_e_autenticacao.Tests\obj\**" />
+      <None Remove="Modulo_de_autrizacao_e_autenticacao.Tests\**" />
+      <None Remove="Tests\**" />
+      <None Remove="MinimalApi.Tests\**" />
+      <None Remove="new" />
+      <None Remove="UnitTests\**" />
+      <None Remove="Modulo_de_autorizacao_e_autenticacao.Tests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Modulo_de_autrizacao_e_autenticacao.Tests\obj\Modulo_de_autrizacao_e_autenticacao.Tests.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="Modulo_de_autrizacao_e_autenticacao.Tests\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="MinimalApi.Tests\obj\MinimalApi.Tests.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="MinimalApi.Tests\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="UnitTests\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="UnitTests\obj\UnitTests.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="Modulo_de_autorizacao_e_autenticacao.Tests\obj\Modulo_de_autorizacao_e_autenticacao.Tests.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="Modulo_de_autorizacao_e_autenticacao.Tests\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="Modulo_de_autorizacao_e_autenticacao.Tests\obj\project.packagespec.json" />
     </ItemGroup>
 
 </Project>
