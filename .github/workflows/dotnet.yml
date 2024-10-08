@@ -33,5 +33,5 @@ jobs:
 
       - name: Run tests
         run: |
-          cd "src"
-          dotnet tests "Modulo_de_autorizacao_e_autenticacao.csproj" --no-build --verbosity normal
+          cd "UnitTests"
+          dotnet tests "UnitTests.csproj" --no-build --verbosity normal
