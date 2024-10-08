@@ -34,4 +34,4 @@ jobs:
       - name: Run tests
         run: |
           cd "UnitTests"
-          dotnet tests "UnitTests.csproj" --no-build --verbosity normal
+          dotnet test "UnitTests.csproj" --no-build --verbosity normal
