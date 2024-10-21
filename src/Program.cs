@@ -11,6 +11,20 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        // Permitir conexões externas na porta 5252
+        builder.WebHost.UseUrls("http://0.0.0.0:5152");
+
+        // Adicionar política de CORS
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("AllowSpecificOrigin",
+                builder => builder
+                    .WithOrigins("http://localhost:5173") // Permite apenas essa origem
+                    .AllowAnyMethod()                     // Permite todos os métodos (GET, POST, etc.)
+                    .AllowAnyHeader()                     // Permite todos os cabeçalhos
+                    .AllowCredentials());                 // Permite envio de cookies ou credenciais
+        });
+
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
@@ -31,6 +45,9 @@ public class Program
             app.UseSwagger();
             app.UseSwaggerUI();
         }
+
+        // Usar a política de CORS definida
+        app.UseCors("AllowSpecificOrigin");
 
         app.MapPost("/createaccount", async (UserAccount userAccount) =>
         {
