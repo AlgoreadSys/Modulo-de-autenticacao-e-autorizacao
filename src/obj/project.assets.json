@@ -1376,11 +1376,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lukexll\\Documents\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj",
+      "projectUniqueName": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj",
       "projectName": "Modulo_de_autorizacao_e_autenticacao",
-      "projectPath": "C:\\Users\\Lukexll\\Documents\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj",
+      "projectPath": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\Modulo_de_autorizacao_e_autenticacao.csproj",
       "packagesPath": "C:\\Users\\Lukexll\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lukexll\\Documents\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\obj\\",
+      "outputPath": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lukexll\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1451,7 +1451,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
