@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Módulo de autorização e autenticação.props" />
+</Project>

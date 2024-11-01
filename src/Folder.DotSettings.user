@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CGithub_005CAlogreadRepo_005CModulo_002Dde_002Dautenticacao_002De_002Dautorizacao_005Csrc_005CModels_005CUserAccount_002Ecs/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/ShowAdvancedOptions/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=82619698_002D5E73_002D27A3_002DA650_002D554E7D86DCEC/@EntryIndexedValue">Modulo_de_autorizacao_e_autenticacao.Tests</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestTemplateMapping/=MSTest/@EntryIndexedValue">d6790ab7-33c2-4425-b2c9-51480cd1a852</s:String>
+	
+	
+	</wpf:ResourceDictionary>

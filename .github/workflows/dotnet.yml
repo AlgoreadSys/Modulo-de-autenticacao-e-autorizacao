@@ -22,11 +22,16 @@ jobs:
           dotnet-version: '8.0'
 
       - name: Install dependencies
-        run: dotnet restore
+        run: |
+          cd "src"
+          dotnet restore "Modulo_de_autorizacao_e_autenticacao.csproj"
 
       - name: Build
-        run: dotnet build --no-restore
+        run: |
+          cd "src"
+          dotnet build "Modulo_de_autorizacao_e_autenticacao.csproj" --no-restore --configuration realease
 
       - name: Run tests
-        run: dotnet test --no-build --verbosity normal
-
+        run: |
+          cd "UnitTests"
+          dotnet test "UnitTests.csproj" --no-build --verbosity normal
