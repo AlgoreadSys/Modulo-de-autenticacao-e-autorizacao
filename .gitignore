@@ -2,3 +2,5 @@
 /src/.vs
 /src/obj
 /src/bin
+/UnitTests
+/.github/workflows
