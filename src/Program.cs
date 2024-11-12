@@ -11,7 +11,7 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        // Permitir conexões externas na porta 5252
+        // Permitir conexões externas na porta 5152
         builder.WebHost.UseUrls("http://0.0.0.0:5152");
 
         // Adicionar política de CORS
@@ -19,7 +19,7 @@ public class Program
         {
             options.AddPolicy("AllowSpecificOrigin",
                 builder => builder
-                    .WithOrigins("http://localhost:5173") // Permite apenas essa origem
+                    .WithOrigins("frontend-eta-dusky-33.vercel.app", "www.algoread.com.br") // Permite apenas essa origem
                     .AllowAnyMethod()                     // Permite todos os métodos (GET, POST, etc.)
                     .AllowAnyHeader()                     // Permite todos os cabeçalhos
                     .AllowCredentials());                 // Permite envio de cookies ou credenciais

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1810B2DA-B764-424E-9EEC-8E11980293D0}|Modulo_de_autorizacao_e_autenticacao.csproj|c:\\users\\lukexll\\onedrive\\documentos\\github\\modulo-de-autenticacao-e-autorizacao\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1810B2DA-B764-424E-9EEC-8E11980293D0}|Modulo_de_autorizacao_e_autenticacao.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0AC15EE8-B891-46E4-A27A-392101249A37}|..\\UnitTests\\UnitTests.csproj|c:\\users\\lukexll\\onedrive\\documentos\\github\\modulo-de-autenticacao-e-autorizacao\\unittests\\responsemessagetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\bin\\Debug\\net8.0\\Modulo_de_autorizacao_e_autenticacao.deps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\Modulo_de_autorizacao_e_autenticacao.deps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1810B2DA-B764-424E-9EEC-8E11980293D0}|Modulo_de_autorizacao_e_autenticacao.csproj|c:\\users\\lukexll\\onedrive\\documentos\\github\\modulo-de-autenticacao-e-autorizacao\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1810B2DA-B764-424E-9EEC-8E11980293D0}|Modulo_de_autorizacao_e_autenticacao.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1810B2DA-B764-424E-9EEC-8E11980293D0}|Modulo_de_autorizacao_e_autenticacao.csproj|c:\\users\\lukexll\\onedrive\\documentos\\github\\modulo-de-autenticacao-e-autorizacao\\src\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -62,17 +62,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ResponseMessageTests.cs",
               "DocumentMoniker": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\UnitTests\\ResponseMessageTests.cs",
               "RelativeDocumentMoniker": "..\\UnitTests\\ResponseMessageTests.cs",
-              "ToolTip": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\UnitTests\\ResponseMessageTests.cs*",
-              "RelativeToolTip": "..\\UnitTests\\ResponseMessageTests.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\UnitTests\\ResponseMessageTests.cs",
+              "RelativeToolTip": "..\\UnitTests\\ResponseMessageTests.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T21:56:02.982Z",
               "EditorCaption": ""
@@ -80,32 +80,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserAccountTests.cs",
-              "DocumentMoniker": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\UnitTests\\UserAccountTests.cs",
-              "RelativeDocumentMoniker": "..\\UnitTests\\UserAccountTests.cs",
-              "ToolTip": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\UnitTests\\UserAccountTests.cs",
-              "RelativeToolTip": "..\\UnitTests\\UserAccountTests.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T21:54:24.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UnitTests",
+              "Title": "UnitTests.csproj",
               "DocumentMoniker": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\UnitTests\\UnitTests.csproj",
               "RelativeDocumentMoniker": "..\\UnitTests\\UnitTests.csproj",
               "ToolTip": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\UnitTests\\UnitTests.csproj",
               "RelativeToolTip": "..\\UnitTests\\UnitTests.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-28T21:49:19.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T21:49:19.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AuthAuditTests.cs",
               "DocumentMoniker": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\UnitTests\\AuthAuditTests.cs",
               "RelativeDocumentMoniker": "..\\UnitTests\\AuthAuditTests.cs",
@@ -113,12 +99,11 @@
               "RelativeToolTip": "..\\UnitTests\\AuthAuditTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T21:44:25.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T21:44:25.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -126,8 +111,7 @@
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-08T20:30:49.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T20:30:49.643Z"
             },
             {
               "$type": "Document",
@@ -155,6 +139,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T12:14:44.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserAccountTests.cs",
+              "DocumentMoniker": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\UnitTests\\UserAccountTests.cs",
+              "RelativeDocumentMoniker": "..\\UnitTests\\UserAccountTests.cs",
+              "ToolTip": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\UnitTests\\UserAccountTests.cs",
+              "RelativeToolTip": "..\\UnitTests\\UserAccountTests.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T21:54:24.675Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "AuthAudit.cs",
               "DocumentMoniker": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\Models\\AuthAudit.cs",
@@ -163,20 +172,7 @@
               "RelativeToolTip": "Models\\AuthAudit.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T12:21:48.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwDwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T12:14:44.28Z"
+              "WhenOpened": "2024-10-03T12:21:48.265Z"
             },
             {
               "$type": "Document",
@@ -192,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Modulo_de_autorizacao_e_autenticacao.deps.json",
               "DocumentMoniker": "C:\\Users\\Lukexll\\OneDrive\\Documentos\\GitHub\\Modulo-de-autenticacao-e-autorizacao\\src\\bin\\Debug\\net8.0\\Modulo_de_autorizacao_e_autenticacao.deps.json",
               "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\Modulo_de_autorizacao_e_autenticacao.deps.json",
